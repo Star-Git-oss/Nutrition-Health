@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<!-- Title Start -->
+		<title>Shop</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device_width, initail-scale=1 shrink-to-fit=no" >
+		<!-- Title End -->
+
+		<!-- CSS Link Start -->
+		<link rel="stylesheet" href="resources/css/jquery.bxslider.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/all.min.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> 
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+		<link rel="stylesheet" href="http://scriptpie.com/cubeportfolio/live-preview/cubeportfolio/css/cubeportfolio.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">	
+		<!-- CSS Link End -->
+    
+
+	    <!-- Google fonts Start-->
+	    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+	    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+	    <!-- Google fonts Start-->
+<style>
+body {
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+  margin-top: 1%;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+</style>
+
+
+
+	</head>	
+	<body>
+		
+		<!-- Nabvar Start -->
+		<div class="row nav">
+			<div class="col-md-12 col-sm-12">
+				<div class="navbar shadow navbar-expand-lg navbar-light bg-light navbar-size fixed-top">
+					<a class="navbar-brand" href="index.html"><img class="img-fluid" src="resources/img/logo/logo.png" alt=""></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					    <span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto text-center" id="list">
+							<li class="nav-item">
+								<a class="nav-link active" id="nav-text" href="#home">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link"  id="nav-text" href="#about">About</a>
+							</li>
+							<li class="nav-item ">
+								<a class="nav-link" id="nav-text" href="#shop">Shop</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="nav-text" href="#services">Services</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="nav-text" href="#contact">Contact</a>
+							</li>
+						</ul>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Navbar End -->
+
+		<div class="row py-2 mt-5">
+		  <div class="col-75">
+		    <div class="container">
+		      <form action="index.html">
+		        <div class="row">
+		          <div class="col-50">
+		            <h3>Billing Address</h3>
+		            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+		            <input type="text" id="fname" name="firstname" placeholder="Enter name here">
+		            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+		            <input type="text" id="email" name="email" placeholder="Enter email here">
+		            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+		            <input type="text" id="adr" name="address" placeholder="Enter address here">
+		            <label for="city"><i class="fa fa-institution"></i> City</label>
+		            <input type="text" id="city" name="city" placeholder=" Enter your city">
+
+		            <div class="row">
+		              <div class="col-50">
+		                <label for="state">State</label>
+		                <input type="text" id="state" name="state" placeholder="state">
+		              </div>
+		              <div class="col-50">
+		                <label for="zip">Zip</label>
+		                <input type="text" id="zip" name="zip" placeholder="zip code">
+		              </div>
+		            </div>
+		          </div>
+
+		          <div class="col-50">
+		            <h3>Payment</h3>
+		            <label for="fname">Accepted Cards</label>
+		            <div class="icon-container">
+		              <i class="fa fa-cc-visa" style="color:navy;"></i>
+		              <i class="fa fa-cc-amex" style="color:blue;"></i>
+		              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+		              <i class="fa fa-cc-discover" style="color:orange;"></i>
+		            </div>
+		            <label for="cname">Name on Card</label>
+		            <input type="text" id="cname" name="cardname" placeholder="Card name here">
+		            <label for="ccnum">Credit card number</label>
+		            <input type="text" id="ccnum" name="cardnumber" placeholder="Enter your payment card number">
+		            <label for="expmonth">Exp Month</label>
+		            <input type="text" id="expmonth" name="expmonth" placeholder="December">
+		            <div class="row">
+		              <div class="col-50">
+		                <label for="expyear">Exp Year</label>
+		                <input type="text" id="expyear" name="expyear" placeholder="2019">
+		              </div>
+		              <div class="col-50">
+		                <label for="cvv">Pin</label>
+		                <input type="password" id="cvv" name="cvv" placeholder="****">
+		              </div>
+		            </div>
+		          </div>
+		          
+		        </div>
+		        <label>
+		          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+		        </label>
+		        <input type="submit" value="Buy Now" class="btn">
+		      </form>
+		    </div>
+		  </div>
+		  <div class="col-25">
+		    <div class="container">
+		      <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
+		      <p><a href="#">Apple</a> <span class="price">$10.00</span></p>
+		      <p><a href="#">Orange</a> <span class="price">$8.00</span></p>
+		      <p><a href="#">Blackberry</a> <span class="price">$9.00</span></p>
+		      <p><a href="#">Strawberry</a> <span class="price">$7.00</span></p>
+		      <hr>
+		      <p>Total <span class="price" style="color:black"><b>$34.00</b></span></p>
+		    </div>
+		  </div>
+		</div>
+
+			
+		<footer>
+			<div class="footer-top">
+			
+				<div class="container-fluid">
+			      <div class="row">
+
+			        <div class="col-md-3 col-sm-12 text-left py-5">
+			          <h2 style="color: #8FB435; font-size: 25px; font-family: 'Times New Romans'">About Us</h2><br>
+			          <p style="padding: 0px; margin-left: 0; font-size: 17px; font-family: 'Times New Romans'">With more than 15 years of experience we can proudly say that we are one of the best in business, a trusted supplier for more than 1000 companies...</p>
+			          
+			         <a href=""><img class="img-fluid" src="resources/img/icon/icon-shipping-1.png"></a>
+			        </div>
+
+			        <div class="col-md-3 col-sm-12 text-left py-5">
+			          <h2 style="color: #8FB435; font-size: 25px; font-family: 'Times New Romans'">Information</h2><br>
+			          <a href="#">Delivery</a><br>
+			          <a href="#">Legal Notice</a><br>
+			          <a href="#">Terms & Conditions</a><br>
+			          <a href="#">About Us</a><br>
+			          <a href="#">Secure Payment</a><br>
+			          <a href="#">Our Stores</a>
+			        </div>
+
+			        <div class="col-md-3 col-sm-12 text-left py-5">
+			          <h2 style="color: #8FB435; font-size: 25px; font-family: 'Times New Romans'">Get It Touch</h2><br>
+			          <a href=""><span class="fa fa-twitter"></span></a>
+			          <a href=""><span class="fa fa-facebook-f"></span></a>
+			          <a href=""><span class="fa fa-instagram"></span></a>
+			          <a href="#"><span class="fa fa-linkedin"></span></a>
+			          <br><br>
+			          <h2 style="color: #8FB435; font-size: 25px; font-family: 'Times New Romans'">Payment Accept</h2><br>
+			          <a href="#"><img class="img-fluid" src="resources/img/payment/payment1.png"></a>
+			        </div>
+
+			        <div class="col-md-3 col-sm-12 text-left py-5">
+			          <h2 style="color: #8FB435; font-size: 25px; font-family: 'Times New Romans'">Get Newsletter</h2>
+			          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+			          <input type="email" class="email" placeholder=" Type your email"><br><br>
+			          <button type="submit" value="submit"><b>Subscribe</b></button>
+			        </div>
+			      </div>
+				</div>	
+			</div>
+
+			
+			<div class="row Copyright-bg">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12 col-sm-12 copyright text-center">
+							<h6 class="copyright-sujon">Copyright &copy; 2020 All rights reserved | This template is made with &#9825; by <span style="color: #FF5700">Sujon Ahmed.</span></h6>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+		</footer>
+
+
+		
+		<!-- Script Link Start -->
+		<script src="resources/js/main.js" type="text/javascript"></script>
+		<script src="resources/js/jquery.counterup.min.js" type="text/javascript"></script>
+		<script src="resources/js/jquery.waypoints.min.js" type="text/javascript"></script>
+		<script src="resources/script/jquery-3.4.1.min.js" type="text/javascript"></script>
+		<script src="resources/script/bootstrap.bundle.min.js" type="text/javascript"></script>
+		<!-- Script Link End -->
+	</body>
+</html>
